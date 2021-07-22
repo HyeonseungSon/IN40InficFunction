@@ -1,17 +1,27 @@
 /*
-
+Infix Function
+ - 연산자 처럼 사용할 수 있게 만든 함수
  */
 
 fun main() {
-
     val v1 = 100
-    val r1 = 100 add 50
+    val r1 = 100 add2 50
     println("r1 : $r1")
 
-    val r2 = v1 add 50
+    val r2 = v1 add2 50
     println("r2 : $r2")
+
+    val r3 = v1.minus2(50)
+    println("r3 : $r3")
+
+    val r4 = v1 minus2 50
+    println("r4 : $r4")
 }
 
-infix fun Int.add(a1:Int) : Int {
+infix fun Int.add2(a1:Int) : Int {
     return this + a1
+}
+
+infix fun Int.minus2(a1:Int) : Int {
+    return this - a1
 }

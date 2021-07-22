@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IN40InficFunction.iml" filepath="$PROJECT_DIR$/IN40InficFunction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IN40InfixFunction.iml" filepath="$PROJECT_DIR$/IN40InfixFunction.iml" />
     </modules>
   </component>
 </project>
